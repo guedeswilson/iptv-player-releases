@@ -10,14 +10,14 @@ Testado no Fire TV Stick 4K (2018, Fire OS 6) e no Fire TV Stick 4K Max (Fire OS
 
 ## Instalar pelo Downloader
 
-<!-- A CONFERIR NA TAREFA 13: os caminhos de menu abaixo ainda não foram conferidos nos aparelhos (Fire OS 6 e Fire OS 8). Corrigir pelos screencaps antes de considerar este texto final. -->
+<!-- Fire OS 6 conferido em 23/11/2026. A CONFERIR: os caminhos do Fire OS 7 e 8. -->
 
 1. Instale o app **Downloader** pela loja da Amazon.
 2. Libere a instalação de apps de fontes desconhecidas:
-   - **Fire OS 6:** Configurações › Meu Fire TV › Opções do desenvolvedor › Apps de fontes desconhecidas.
-   - **Fire OS 7 e 8:** Configurações › Meu Fire TV › Opções do desenvolvedor › Instalar apps desconhecidos › Downloader.
-   - Se "Opções do desenvolvedor" não aparecer, abra Configurações › Meu Fire TV › Sobre e aperte OK 7 vezes no nome do aparelho.
-3. Abra o Downloader e digite este link:
+   - **Fire OS 6:** Configurações › Meu Fire TV › Opções para desenvolvedores › Aplicativos de fontes desconhecidas (deixe ATIVADO).
+   - **Fire OS 7 e 8:** Configurações › Meu Fire TV › Opções para desenvolvedores › Instalar apps desconhecidos › Downloader.
+   - Se "Opções para desenvolvedores" não aparecer, abra Configurações › Meu Fire TV › Informações e aperte OK 7 vezes no nome do aparelho.
+3. Abra o Downloader, clique na barra de endereço no alto e digite este link:
 
    ```
    https://github.com/guedeswilson/iptv-player-releases/releases/latest/download/iptv.apk
@@ -31,11 +31,11 @@ Preencha os dados da sua conta: um apelido (opcional), o servidor (por exemplo `
 
 ## Atualizações
 
-<!-- A CONFERIR NA TAREFA 13: os caminhos de menu desta seção também. -->
+<!-- Fire OS 6 conferido em 23/11/2026. A CONFERIR: a permissão do Fire OS 7 e 8. -->
 
-- Quando há versão nova, o app avisa ao abrir e pergunta "Atualizar agora?".
-- Na primeira atualização, o Fire TV pede para permitir que o IPTV Player instale apps.
-- No Fire TV Stick 4K de 2018, se o app sumir da tela inicial depois de atualizar, reinicie o aparelho (Configurações › Meu Fire TV › Reiniciar).
+- Quando há versão nova, o app avisa ao abrir e pergunta "Atualizar agora?". Escolha **Atualizar**; quando o Fire TV mostrar a tela de instalação, vá até **Instalar** e aperte OK.
+- No Fire OS 7 e 8, na primeira atualização, o Fire TV pede para permitir que o IPTV Player instale apps.
+- No Fire TV Stick 4K de 2018 (Fire OS 6), o app costuma sumir de "Seus aplicativos e jogos" depois de atualizar. Reinicie o aparelho (Configurações › Meu Fire TV › Reiniciar) e ele volta.
 - Também dá para procurar uma versão nova nas Configurações do app › Verificar atualização.
 - As versões e as notas de cada uma ficam na página de [releases](https://github.com/guedeswilson/iptv-player-releases/releases) deste repositório.
 
